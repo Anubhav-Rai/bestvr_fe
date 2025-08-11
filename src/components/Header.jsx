@@ -2,7 +2,7 @@ import React from 'react';
 import { User, ShoppingCart, LogOut, Moon, Sun, Info, Phone } from 'lucide-react';
 import { Home } from 'lucide-react';
 // src/components/Header.jsx
-import logo from '../assets/kridion-logo.png'  // adjust path to wherever you put the PNG
+import logo from '../assets/bestvr-logo.png'  // adjust path to wherever you put the PNG
 
 
 const Header = ({ user, cartCount, onLogout, onNav, onLogin, onRegister, darkMode, toggleDarkMode }) => (
@@ -18,7 +18,7 @@ const Header = ({ user, cartCount, onLogout, onNav, onLogin, onRegister, darkMod
                     <div className="relative">
                         <img
                             src={logo}
-                            alt="KRIDION(agro) Logo"
+                            alt="BESTVR(agro) Logo"
                             className="h-8 sm:h-10 lg:h-12 w-auto filter drop-shadow-lg transition-all duration-300 group-hover:scale-110"
                         />
                     </div>
@@ -26,7 +26,7 @@ const Header = ({ user, cartCount, onLogout, onNav, onLogin, onRegister, darkMod
                         <span className={`text-lg sm:text-xl lg:text-2xl font-black tracking-tight transition-all duration-300 ${
                             darkMode ? 'text-white' : 'text-black'
                         }`}>
-                            KRIDION
+                            BESTVR
                         </span>
                         <span className={`text-xs font-semibold tracking-[0.2em] opacity-60 ${
                             darkMode ? 'text-emerald-400' : 'text-emerald-600'

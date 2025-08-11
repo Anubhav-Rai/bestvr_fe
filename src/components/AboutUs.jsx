@@ -1,6 +1,6 @@
 import React from 'react';
 import { Award, Leaf, Users, MapPin, Clock, Heart } from 'lucide-react';
-import anubhavImage from '../assets/anubhav.jpeg';
+import rajuImage from '../assets/raju.jpeg';
 
 const AboutUs = ({ darkMode }) => (
   <div className="space-y-8">
@@ -32,19 +32,19 @@ const AboutUs = ({ darkMode }) => (
         }`}>
           <h2 className={`text-2xl font-bold mb-6 transition-colors duration-300 group-hover:text-emerald-400 ${
             darkMode ? 'text-white' : 'text-slate-900'
-          }`}>About KRIDION Agro</h2>
+          }`}>About BESTVR Agro</h2>
           
           {/* Founder Section */}
           <div className="flex flex-col md:flex-row gap-6 mb-6">
             <div className="md:w-1/3">
               <div className="relative">
                 <img
-                  src={anubhavImage}
-                  alt="AKSHAT YADAV MEENA Rai - Founder of KRIDION Agro"
+                  src={rajuImage}
+                  alt="Raju Rai - Founder of BESTVR Agro"
                   className="w-full h-64 md:h-48 object-cover rounded-xl shadow-lg"
                 />
                 <div className={`absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent rounded-b-xl p-4`}>
-                  <h3 className="text-white font-semibold text-lg">Anubhav Rai</h3>
+                  <h3 className="text-white font-semibold text-lg">Raju Rai</h3>
                   <p className="text-white/90 text-sm">Founder & CEO</p>
                 </div>
               </div>
@@ -54,7 +54,7 @@ const AboutUs = ({ darkMode }) => (
               <p className={`leading-relaxed transition-colors duration-300 ${
                 darkMode ? 'text-slate-300' : 'text-slate-600'
               }`}>
-                Founded in 2023 by YADAV, KRIDION Agro emerged from a passion for preserving traditional Indian kitchen 
+                Founded in 2023 by YADAV, BESTVR Agro emerged from a passion for preserving traditional Indian kitchen 
                 practices while meeting modern quality standards. What started as a small venture by the Rai 
                 family in Bangaluru has grown into a trusted name for authentic kitchen essentials.
               </p>
@@ -63,7 +63,7 @@ const AboutUs = ({ darkMode }) => (
                 darkMode ? 'text-slate-300' : 'text-slate-600'
               }`}>
                 "Our vision is to bring the authentic taste and quality of traditional Indian kitchen products 
-                to every home, while supporting local artisans and farmers," says Anubhav, who comes from a 
+                to every home, while supporting local artisans and farmers," says Raju, who comes from a 
                 family with deep roots in traditional craftsmanship and agriculture.
               </p>
             </div>

@@ -14,7 +14,7 @@ const CompanyInfo = ({ darkMode }) => (
           <span className="text-xl sm:text-2xl">🌿</span>
         </div>
         <div className="text-center sm:text-left">
-          <h1 className="text-xl sm:text-2xl font-bold">Welcome to KRIDION Agro</h1>
+          <h1 className="text-xl sm:text-2xl font-bold">Welcome to BESTVR Agro</h1>
           <p className={`text-sm sm:text-base transition-colors duration-300 ${
             darkMode ? 'text-emerald-200' : 'text-emerald-100'
           }`}>Premium Kitchen Essentials & Authentic Spices</p>
@@ -82,7 +82,7 @@ const CompanyInfo = ({ darkMode }) => (
           <span className={`font-medium transition-colors duration-300 ${
             darkMode ? 'text-emerald-300' : 'text-emerald-200'
           }`}>Email:</span>
-          <span className="ml-2">info@kridion.com</span>
+          <span className="ml-2">info@bestvr.com</span>
         </div>
         <div>
           <span className={`font-medium transition-colors duration-300 ${

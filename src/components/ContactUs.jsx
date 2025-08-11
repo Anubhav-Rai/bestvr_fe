@@ -33,7 +33,7 @@ const ContactUs = ({ darkMode }) => {
 
   const handleWhatsApp = () => {
     const phoneNumber = '917015431317'; // Without + sign for WhatsApp
-    const message = encodeURIComponent('Hello! I am interested in your products from KRIDION Agro.');
+    const message = encodeURIComponent('Hello! I am interested in your products from BESTVR Agro.');
     
     // WhatsApp Web for desktop browsers, WhatsApp app for mobile
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
@@ -107,7 +107,7 @@ const ContactUs = ({ darkMode }) => {
               className="space-y-6"
             >
               {/* FormSubmit Configuration */}
-              <input type="hidden" name="_subject" value="New Contact Form Submission from KRIDION Agro Website" />
+              <input type="hidden" name="_subject" value="New Contact Form Submission from BESTVR Agro Website" />
               <input type="hidden" name="_captcha" value="false" />
               <input type="hidden" name="_template" value="table" />
               <input type="hidden" name="_next" value={window.location.origin + window.location.pathname + "?success=true"} />
@@ -272,10 +272,10 @@ const ContactUs = ({ darkMode }) => {
                   }`}>Email</h4>
                   <p className={`text-sm mt-1 transition-colors duration-300 ${
                     darkMode ? 'text-slate-300' : 'text-slate-600'
-                  }`}>info@kridion.com</p>
+                  }`}>info@bestvr.com</p>
                   <p className={`text-sm transition-colors duration-300 ${
                     darkMode ? 'text-slate-300' : 'text-slate-600'
-                  }`}>orders@kridion.com</p>
+                  }`}>orders@bestvr.com</p>
                 </div>
               </div>
               

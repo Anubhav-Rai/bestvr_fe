@@ -138,7 +138,7 @@ const RegisterForm = ({ onRegister, onSwitchToLogin, loading, darkMode }) => {
         }`}>
           Join
           <span className="block bg-gradient-to-r from-emerald-500 to-teal-600 bg-clip-text text-transparent">
-            KRIDION
+            BESTVR
           </span>
         </h1>
         <p className={`text-xl leading-relaxed ${
