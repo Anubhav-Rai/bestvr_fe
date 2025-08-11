@@ -17,7 +17,7 @@ const CompanyInfo = ({ darkMode }) => (
           <h1 className="text-xl sm:text-2xl font-bold">Welcome to BESTVR Agro</h1>
           <p className={`text-sm sm:text-base transition-colors duration-300 ${
             darkMode ? 'text-emerald-200' : 'text-emerald-100'
-          }`}>Premium Kitchen Essentials & Authentic Spices</p>
+          }`}>Agricultural Essentials & Fertilizers</p>
         </div>
       </div>
       
@@ -31,7 +31,7 @@ const CompanyInfo = ({ darkMode }) => (
           </div>
           <p className={`text-sm transition-colors duration-300 ${
             darkMode ? 'text-emerald-200' : 'text-emerald-100'
-          }`}>Handcrafted products with authentic traditional methods</p>
+          }`}>Premium quality fertilizers and agricultural inputs</p>
         </div>
         
         <div className={`backdrop-blur-sm rounded-lg p-4 transition-colors duration-300 ${

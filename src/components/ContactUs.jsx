@@ -54,8 +54,8 @@ const ContactUs = ({ darkMode }) => {
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4">Get in Touch</h1>
             <p className="text-base sm:text-lg lg:text-xl text-emerald-100 leading-relaxed">
-              Have questions about our products? Need bulk orders? We're here to help you 
-              find the perfect kitchen essentials for your needs.
+              Have questions about our agricultural products? Need bulk fertilizer orders? We're here to help you 
+              find the perfect agricultural essentials for your farming needs.
             </p>
           </div>
         </div>
@@ -437,8 +437,8 @@ const ContactUs = ({ darkMode }) => {
             <p className={`text-sm transition-colors duration-300 ${
               darkMode ? 'text-slate-300' : 'text-slate-600'
             }`}>
-              All our products undergo strict quality checks. Wooden items are food-grade 
-              treated, and spices are tested for purity and freshness.
+              All our products undergo strict quality checks. Fertilizers are tested for nutrient content 
+              and purity, and organic inputs are verified for quality and effectiveness.
             </p>
           </div>
           
@@ -449,7 +449,7 @@ const ContactUs = ({ darkMode }) => {
             <p className={`text-sm transition-colors duration-300 ${
               darkMode ? 'text-slate-300' : 'text-slate-600'
             }`}>
-              We offer 7-day returns for damaged products. For custom wooden items, 
+              We offer 7-day returns for damaged products. For bulk fertilizer orders, 
               returns are accepted only if there are quality issues.
             </p>
           </div>

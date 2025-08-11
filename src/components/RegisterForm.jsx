@@ -144,7 +144,7 @@ const RegisterForm = ({ onRegister, onSwitchToLogin, loading, darkMode }) => {
         <p className={`text-xl leading-relaxed ${
           darkMode ? 'text-white/70' : 'text-black/70'
         }`}>
-          Create your account and start shopping premium kitchen essentials
+          Create your account and start shopping agricultural essentials
         </p>
       </div>
 

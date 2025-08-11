@@ -14,8 +14,8 @@ const AboutUs = ({ darkMode }) => (
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4">Our Story</h1>
           <p className="text-base sm:text-lg lg:text-xl text-emerald-100 leading-relaxed">
-            From a small family kitchen to serving homes across India with premium wooden kitchenware, 
-            authentic spices, and traditional mustard oil
+            From a small agricultural venture to serving farms across India with premium fertilizers, 
+            organic inputs, and quality agricultural products
           </p>
         </div>
       </div>
@@ -54,17 +54,17 @@ const AboutUs = ({ darkMode }) => (
               <p className={`leading-relaxed transition-colors duration-300 ${
                 darkMode ? 'text-slate-300' : 'text-slate-600'
               }`}>
-                Founded in 2023 by YADAV, BESTVR Agro emerged from a passion for preserving traditional Indian kitchen 
-                practices while meeting modern quality standards. What started as a small venture by the Rai 
-                family in Bangaluru has grown into a trusted name for authentic kitchen essentials.
+                Founded in 2023 by YADAV, BESTVR Agro emerged from a passion for supporting Indian farmers with 
+                quality agricultural inputs while ensuring sustainable farming practices. What started as a small venture by the Rai 
+                family in Bangaluru has grown into a trusted name for premium agricultural essentials.
               </p>
               
               <p className={`leading-relaxed transition-colors duration-300 ${
                 darkMode ? 'text-slate-300' : 'text-slate-600'
               }`}>
-                "Our vision is to bring the authentic taste and quality of traditional Indian kitchen products 
-                to every home, while supporting local artisans and farmers," says Raju, who comes from a 
-                family with deep roots in traditional craftsmanship and agriculture.
+                "Our vision is to empower Indian farmers with premium quality fertilizers and agricultural inputs 
+                for better crop yields, while promoting sustainable farming practices," says Raju, who comes from a 
+                family with deep roots in agriculture and farming.
               </p>
             </div>
           </div>
@@ -73,19 +73,18 @@ const AboutUs = ({ darkMode }) => (
             <p className={`leading-relaxed transition-colors duration-300 ${
               darkMode ? 'text-slate-300' : 'text-slate-600'
             }`}>
-              We specialize in handcrafted wooden chopping boards made from sustainable teak and sheesham wood, 
-              premium spices sourced directly from farms, and cold-pressed mustard oil prepared using 
-              century-old traditional methods. Every product reflects our commitment to quality, authenticity, 
-              and the rich culinary heritage of India.
+              We specialize in premium quality urea, neem khali (neem cake), sarso khali (mustard cake), 
+              organic compost, and potash sourced from trusted suppliers. Every product undergoes strict quality 
+              testing to ensure maximum effectiveness and crop yields for our farming community.
             </p>
             
             <p className={`leading-relaxed transition-colors duration-300 ${
               darkMode ? 'text-slate-300' : 'text-slate-600'
             }`}>
-              Our wooden products are crafted by skilled artisans who have been working with wood for generations. 
-              Each piece is carefully selected, seasoned, and finished to ensure durability and food safety. 
-              Our spices are sourced from organic farms and processed in small batches to retain their natural 
-              oils and authentic flavors.
+              Our fertilizers and organic inputs are sourced from certified manufacturers and suppliers. 
+              Each batch is tested for purity, nutrient content, and quality standards. Our products are designed 
+              to improve soil health, enhance plant growth, and increase agricultural productivity while being 
+              environmentally sustainable.
             </p>
           </div>
         </div>
@@ -106,8 +105,8 @@ const AboutUs = ({ darkMode }) => (
             <p className={`text-sm leading-relaxed transition-colors duration-300 ${
               darkMode ? 'text-slate-300' : 'text-slate-600'
             }`}>
-              To bring authentic, high-quality kitchen essentials to every Indian home while supporting 
-              traditional artisans and sustainable farming practices.
+              To provide premium agricultural inputs and fertilizers to every Indian farmer while promoting 
+              sustainable farming and improved crop productivity.
             </p>
           </div>
 
@@ -125,8 +124,8 @@ const AboutUs = ({ darkMode }) => (
             <p className={`text-sm leading-relaxed transition-colors duration-300 ${
               darkMode ? 'text-slate-300' : 'text-slate-600'
             }`}>
-              To become India's most trusted brand for traditional kitchen products while preserving 
-              our culinary heritage for future generations.
+              To become India's most trusted brand for agricultural essentials while supporting 
+              farmers and promoting sustainable agriculture for future generations.
             </p>
           </div>
         </div>
@@ -258,41 +257,41 @@ const AboutUs = ({ darkMode }) => (
       
       <div className="grid md:grid-cols-3 gap-6">
         <div className="text-center">
-          <div className="text-4xl mb-3">🪵</div>
+          <div className="text-4xl mb-3">🌾</div>
           <h3 className={`font-semibold mb-2 transition-colors duration-300 ${
             darkMode ? 'text-white' : 'text-slate-900'
-          }`}>Wooden Kitchenware</h3>
+          }`}>Premium Fertilizers</h3>
           <p className={`text-sm transition-colors duration-300 ${
             darkMode ? 'text-slate-300' : 'text-slate-600'
           }`}>
-            Handcrafted chopping boards, serving platters, and kitchen tools made from premium 
-            teak and sheesham wood with food-safe finishes.
+            High-quality urea, potash, and other chemical fertilizers to boost crop yields 
+            and improve soil fertility for better agricultural productivity.
           </p>
         </div>
         
         <div className="text-center">
-          <div className="text-4xl mb-3">🌶️</div>
+          <div className="text-4xl mb-3">🌱</div>
           <h3 className={`font-semibold mb-2 transition-colors duration-300 ${
             darkMode ? 'text-white' : 'text-slate-900'
-          }`}>Premium Spices</h3>
+          }`}>Organic Inputs</h3>
           <p className={`text-sm transition-colors duration-300 ${
             darkMode ? 'text-slate-300' : 'text-slate-600'
           }`}>
-            Farm-fresh elaichi (cardamom), black pepper, cinnamon, and other authentic Indian 
-            spices processed in small batches.
+            Premium neem khali (neem cake), sarso khali (mustard cake), and organic compost 
+            for sustainable farming and natural soil enrichment.
           </p>
         </div>
         
         <div className="text-center">
-          <div className="text-4xl mb-3">🫒</div>
+          <div className="text-4xl mb-3">🧪</div>
           <h3 className={`font-semibold mb-2 transition-colors duration-300 ${
             darkMode ? 'text-white' : 'text-slate-900'
-          }`}>Mustard Oil & More</h3>
+          }`}>Soil Enhancers</h3>
           <p className={`text-sm transition-colors duration-300 ${
             darkMode ? 'text-slate-300' : 'text-slate-600'
           }`}>
-            Cold-pressed mustard oil (khali), sesame oil, and other traditional cooking oils 
-            prepared using time-tested methods.
+            Specialized agricultural products including micronutrients, soil conditioners, 
+            and growth promoters for comprehensive crop care and nutrition.
           </p>
         </div>
       </div>
