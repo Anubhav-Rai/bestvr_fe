@@ -40,11 +40,11 @@ const AboutUs = ({ darkMode }) => (
               <div className="relative">
                 <img
                   src={rajuImage}
-                  alt="Raju Rai - Founder of BESTVR Agro"
+                  alt="Raju - Founder of BESTVR Agro"
                   className="w-full h-64 md:h-48 object-cover rounded-xl shadow-lg"
                 />
                 <div className={`absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent rounded-b-xl p-4`}>
-                  <h3 className="text-white font-semibold text-lg">Mr. Raju Rai</h3>
+                  <h3 className="text-white font-semibold text-lg">Mr. Raju</h3>
                   <p className="text-white/90 text-sm">Founder & CEO | Electrical Engineer</p>
                 </div>
               </div>
@@ -54,7 +54,7 @@ const AboutUs = ({ darkMode }) => (
               <p className={`leading-relaxed transition-colors duration-300 ${
                 darkMode ? 'text-slate-300' : 'text-slate-600'
               }`}>
-                Founded in 2023 by Mr. Raju Rai, BESTVR Agro emerged from an unexpected journey of transformation. 
+                Founded in 2023 by Mr. Raju, BESTVR Agro emerged from an unexpected journey of transformation. 
                 Based in Gorakhpur, Uttar Pradesh, Mr. Raju is an electrical engineer who transitioned into the agricultural 
                 sector driven by a passion for supporting Indian farmers with quality inputs and sustainable farming practices.
               </p>
