@@ -44,8 +44,8 @@ const AboutUs = ({ darkMode }) => (
                   className="w-full h-64 md:h-48 object-cover rounded-xl shadow-lg"
                 />
                 <div className={`absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent rounded-b-xl p-4`}>
-                  <h3 className="text-white font-semibold text-lg">Raju Rai</h3>
-                  <p className="text-white/90 text-sm">Founder & CEO</p>
+                  <h3 className="text-white font-semibold text-lg">Mr. Raju Rai</h3>
+                  <p className="text-white/90 text-sm">Founder & CEO | Electrical Engineer</p>
                 </div>
               </div>
             </div>
@@ -54,17 +54,18 @@ const AboutUs = ({ darkMode }) => (
               <p className={`leading-relaxed transition-colors duration-300 ${
                 darkMode ? 'text-slate-300' : 'text-slate-600'
               }`}>
-                Founded in 2023 by YADAV, BESTVR Agro emerged from a passion for supporting Indian farmers with 
-                quality agricultural inputs while ensuring sustainable farming practices. What started as a small venture by the Rai 
-                family in Bangaluru has grown into a trusted name for premium agricultural essentials.
+                Founded in 2023 by Mr. Raju Rai, BESTVR Agro emerged from an unexpected journey of transformation. 
+                Based in Gorakhpur, Uttar Pradesh, Mr. Raju is an electrical engineer who transitioned into the agricultural 
+                sector driven by a passion for supporting Indian farmers with quality inputs and sustainable farming practices.
               </p>
               
               <p className={`leading-relaxed transition-colors duration-300 ${
                 darkMode ? 'text-slate-300' : 'text-slate-600'
               }`}>
-                "Our vision is to empower Indian farmers with premium quality fertilizers and agricultural inputs 
-                for better crop yields, while promoting sustainable farming practices," says Raju, who comes from a 
-                family with deep roots in agriculture and farming.
+                "My engineering background taught me the importance of precision and quality in every process. When I 
+                decided to enter the agricultural sector, I applied the same principles to ensure farmers get the best 
+                possible inputs for their crops," says Mr. Raju, whose unique combination of technical expertise and 
+                agricultural passion has shaped BESTVR Agro's commitment to excellence.
               </p>
             </div>
           </div>
