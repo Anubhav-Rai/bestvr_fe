@@ -488,13 +488,13 @@ const TeakSpiceStore = () => {
                   }`}>
                     Premium
                     <span className="block bg-gradient-to-r from-emerald-500 to-teal-600 bg-clip-text text-transparent">
-                      Kitchen Essentials
+                      Agricultural Essentials
                     </span>
                   </h1>
                   <p className={`text-xl lg:text-2xl max-w-3xl mx-auto leading-relaxed ${
                     darkMode ? 'text-white/70' : 'text-black/70'
                   }`}>
-                    Discover handcrafted teak wood products and premium spices that transform your cooking experience
+                    Discover premium fertilizers and organic inputs that transform your agricultural productivity
                   </p>
                 </div>
               </section>
